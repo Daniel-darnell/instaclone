@@ -19,7 +19,7 @@ class Profile(models.Model):
 
     
     @classmethod
-    def update_profile(cls, id, value):
+    def update_profile(cls, id, value):a
         cls.objects.filter(id=id).update(profile_name=value)
 
    
