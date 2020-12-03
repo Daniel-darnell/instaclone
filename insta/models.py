@@ -18,9 +18,9 @@ class Profile(models.Model):
         self.delete()
 
     
-    @classmethod
-    def update_profile(cls, id, value):a
-        cls.objects.filter(id=id).update(profile_name=value)
+    # @classmethod
+    # def update_profile(cls, id, value):a
+    # cls.objects.filter(id=id).update(profile_name=value)
 
    
     def __str__(self):
